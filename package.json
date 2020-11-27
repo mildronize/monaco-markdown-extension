@@ -1,6 +1,6 @@
 {
   "name": "monaco-markdown-extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
@@ -33,9 +33,7 @@
     "url": "https://github.com/mildronize/monaco-markdown-extension/issues"
   },
   "homepage": "https://github.com/mildronize/monaco-markdown-extension#readme",
-  "peerDependencies": {
-    "monaco-editor": "^0.21.2"
-  },
+  "peerDependencies": {},
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@rollup/plugin-commonjs": "^11.1.0",
@@ -43,11 +41,13 @@
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2",
     "identity-obj-proxy": "^3.0.0",
-    "monaco-editor": "^0.21.2",
     "rollup": "^1.27.4",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-typescript2": "^0.27.0",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.21.2"
   }
 }
